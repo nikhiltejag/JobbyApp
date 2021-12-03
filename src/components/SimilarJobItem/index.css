@@ -1,0 +1,128 @@
+.similar-job-item {
+  background-color: #272727;
+  border-radius: 6px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item {
+    max-width: 320px;
+    padding: 20px;
+    margin-right: 20px;
+  }
+}
+
+.similar-logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-item-similar-logo {
+  width: 45px;
+  margin-right: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-similar-logo {
+    width: 55px;
+  }
+}
+
+.similar-job-item-name {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item-name {
+    font-size: 20px;
+  }
+}
+
+.similar-rating-container {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.similar-rating-star {
+  font-size: 15px;
+  color: #fbbf24;
+  margin-right: 3px;
+}
+
+.similar-rating {
+  margin: 0px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-rating-container {
+    font-size: 20px;
+  }
+}
+
+.similar-location-salary-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-location-employment {
+  display: flex;
+}
+
+.similar-location-container {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.similar-employment-type-container {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-location-salary-container {
+    font-size: 20px;
+  }
+}
+
+.description-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-description-head {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-description-head {
+    font-size: 24px;
+  }
+}
+
+.similar-description {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-description {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.employment-item {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.employment-item-checkbox {
+  margin-right: 10px;
+}
+
+.employment-type-label {
+  color: #ffffff;
+  font-size: 14px;
+}

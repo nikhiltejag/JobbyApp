@@ -1,0 +1,49 @@
+.job-detail-skills {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-detail-skills {
+    font-size: 24px;
+  }
+}
+
+.skills-list {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.skill-list-item {
+  list-style-type: none;
+  width: 50%;
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.skill-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-image {
+    width: 50px;
+  }
+}
+
+.skill-name {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-name {
+    font-size: 20px;
+  }
+}
