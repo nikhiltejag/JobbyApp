@@ -7,6 +7,14 @@
   border-radius: 4px;
   width: 100%;
   margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-list-item {
+    padding: 20px;
+    margin-bottom: 16px;
+  }
 }
 
 .job-list-item-button {
@@ -17,7 +25,7 @@
 
 .item-logo-name-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .job-list-item-logo {
@@ -25,10 +33,28 @@
   margin-right: 6px;
 }
 
+@media screen and (min-width: 768px) {
+  .job-list-item-logo {
+    width: 60px;
+  }
+}
+
+.item-name-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .item-job-list-item-name {
   color: #ffffff;
   font-size: 13px;
   margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .item-job-list-item-name {
+    font-size: 24px;
+  }
 }
 
 .item-rating-container {
@@ -43,9 +69,21 @@
   margin-right: 3px;
 }
 
+@media screen and (min-width: 768px) {
+  .rating-star {
+    font-size: 20px;
+  }
+}
+
 .item-rating {
   margin: 0px;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .item-rating {
+    font-size: 20px;
+  }
 }
 
 .item-location-salary-container {
@@ -66,14 +104,40 @@
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .item-location-container {
+    font-size: 18px;
+  }
+}
+
+.job-item-location-item {
+  /* margin-right: 2px; */
+}
+
 .item-employment-type-container {
   display: flex;
   color: #ffffff;
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .item-employment-type-container {
+    font-size: 18px;
+  }
+}
+
+.job-item-work-icon {
+  margin-right: 4px;
+}
+
 .item-salary {
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .item-salary {
+    font-size: 18px;
+  }
 }
 
 .item-description-head {
@@ -82,8 +146,20 @@
   text-align: left;
 }
 
+@media screen and (min-width: 768px) {
+  .item-description-head {
+    font-size: 20px;
+  }
+}
+
 .item-description {
   color: #ffffff;
   font-size: 12px;
   text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .item-description {
+    font-size: 16px;
+  }
 }

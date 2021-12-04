@@ -50,11 +50,11 @@ const JobListItem = props => {
         <div className="item-location-salary-container">
           <div className="item-location-employment">
             <div className="item-location-container">
-              <MdLocationOn />
+              <MdLocationOn className="job-item-location-item" />
               <p className="item-location">{location}</p>
             </div>
             <div className="item-employment-type-container">
-              <MdWork />
+              <MdWork className="job-item-work-icon" />
               <p className="item-employment-type">{employmentType}</p>
             </div>
           </div>
