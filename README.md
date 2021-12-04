@@ -1,5 +1,11 @@
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
+###You can check the website UI using the link: https://nikhiljobbyapp.ccbp.tech/
+
+###You can use the following credentials:
+username: rahul
+password: rahul@2021
+
 ### Refer to videos below:
 
 <div style="text-align: center;">
